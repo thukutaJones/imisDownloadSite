@@ -55,7 +55,7 @@ app.get("/idsrtutor", async (req, res) => {
     appDescription:
       "The IDSR Tutor is an innovative platform designed to empower health workers by leveraging artificial intelligence to access vital information efficiently. Through the app, users can quickly search for disease surveillance data, guidelines, and best practices tailored to their specific needs. IDSR Tutor provides personalized recommendations, real-time updates on health trends, and access to training resources, ensuring that health workers are well-equipped to respond to public health challenges. With its user-friendly interface and comprehensive database, IDSR Tutor streamlines the process of finding critical information, enabling health professionals to make informed decisions and enhance their impact on community health.",
     appScreenshots: appPics,
-    downloadLink: "https://storage.googleapis.com/mzunidates/idsr/idsrtutor.apk",
+    downloadLink: "",
   };
   res.render("idsr", appData);
 });
